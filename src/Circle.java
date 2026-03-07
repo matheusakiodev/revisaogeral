@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Circle {
@@ -17,7 +16,7 @@ public class Circle {
         double volume;
 
 
-        System.out.println("Digite o valor do raio: ");
+        System.out.println("Digite o valor do raio em cm: ");
         radius = scanner.nextDouble();
 
         circumference = 2 * Math.PI * radius;
