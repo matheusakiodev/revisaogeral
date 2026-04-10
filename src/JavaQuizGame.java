@@ -36,7 +36,6 @@ public class JavaQuizGame {
 
             System.out.print("Enter your guess: ");
             guess = scanner.nextInt();
-
             if(guess == answers[i]){
                 System.out.println("********");
                 System.out.println("Correct!");
