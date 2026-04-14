@@ -9,7 +9,9 @@ public class Inheritance {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Plant plant = new Plant();
 
+        System.out.println(plant.isAlive);
         System.out.println(dog.isAlive);
         System.out.println(cat.isAlive);
 
@@ -21,6 +23,8 @@ public class Inheritance {
 
         dog.speak();
         cat.speak();
+        plant.photosintesize();
+
 
     }
 
