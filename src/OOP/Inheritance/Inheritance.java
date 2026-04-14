@@ -5,7 +5,7 @@ public class Inheritance {
 
         // Inheritance = One class inherits the attributes and methods
         //               from another class.
-        //               Child <- Parent
+        //               Child <- Parent <- Grandparent
 
         Dog dog = new Dog();
         Cat cat = new Cat();
@@ -15,6 +15,12 @@ public class Inheritance {
 
         dog.eat();
         cat.eat();
+
+        System.out.println(dog.lives);
+        System.out.println(cat.lives);
+
+        dog.speak();
+        cat.speak();
 
     }
 

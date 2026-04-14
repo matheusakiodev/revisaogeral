@@ -1,12 +1,6 @@
 package OOP.Inheritance;
 
-public class Animal {
-
-    boolean isAlive;
-
-    Animal(){
-        isAlive = true;
-    }
+public class Animal extends Organism {
 
     void eat(){
         System.out.println("The animal is eating.");
