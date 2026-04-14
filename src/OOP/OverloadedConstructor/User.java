@@ -1,5 +1,5 @@
 // OVERLOADED CONSTRUCTOR
-package OOP;
+package OOP.OverloadedConstructor;
 public class User {
 
     String username;

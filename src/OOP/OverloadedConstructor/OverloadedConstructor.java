@@ -1,4 +1,4 @@
-package OOP;
+package OOP.OverloadedConstructor;
 
 public class OverloadedConstructor {
     public static void main(String[] args) {

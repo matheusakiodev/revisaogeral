@@ -1,5 +1,5 @@
 // CONSTRUCTOR
-package OOP;
+package OOP.Constructor;
 
 public class Student {
 

@@ -6,8 +6,6 @@ public class BankingProject {
 
     public static void main(String[] args) {
 
-
-
         // Java banking program
 
         double balance = 10.99;

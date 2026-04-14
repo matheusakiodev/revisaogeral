@@ -1,5 +1,5 @@
 // OBJECT ARRAY
-package OOP;
+package OOP.ObjectArray;
 
 public class Bycicle {
 
