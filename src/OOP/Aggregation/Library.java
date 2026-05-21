@@ -37,7 +37,7 @@ public class Library {
     }
 
     void displayInfo(){
-        System.out.println("The " + this.year + " " + this.name);
+        System.out.println("The " + this.year + " " + this.name + ".");
         System.out.println("Books available: ");
         for (Book book : books) {
             System.out.println(book.displayInfo());

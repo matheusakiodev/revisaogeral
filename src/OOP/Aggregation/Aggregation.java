@@ -1,6 +1,6 @@
 package OOP.Aggregation;
 
-public class Agreggation {
+public class Aggregation {
     public static void main(String[] args) {
 
         // Aggregation = Represents a "has-a" relationship between objects
@@ -10,8 +10,9 @@ public class Agreggation {
         Book book1 = new Book("The Fellowship of The Ring", 423);
         Book book2 = new Book("The Two Towers", 352);
         Book book3 = new Book("The Return of the King", 416);
+        Book book4 = new Book("The Little Paper Sandwich", 234);
 
-        Book[] books = {book1, book2, book3};
+        Book[] books = {book1, book2, book3, book4};
 
 //        for (Book book : books) {
 //            System.out.println(book.displayInfo());
