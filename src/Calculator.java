@@ -9,7 +9,7 @@ public class Calculator {
         double number2;
         double result = 0;
         char operator;
-        boolean validOperatorion = true;
+        boolean validOperation = true;
 
         System.out.print("Please enter the first number: ");
         number1 = scanner.nextDouble();
@@ -27,19 +27,19 @@ public class Calculator {
             case '/'-> {
                 if (number2 == 0) {
                     System.out.println("Cannot divide by zero!");
-                    validOperatorion = false;
+                    validOperation = false;
                 }
                 else  result = number1 / number2;
             }
             case '^'-> result = Math.pow(number1, number2);
             default ->{
                 System.out.println("Not a valid operator. Please try again.");
-                validOperatorion = false;
+                validOperation = false;
             }
         }
 
-        if(validOperatorion){
-            System.out.println(result);
+        if(validOperation){
+            System.out.println(number1 + " " + operator + " " + number2 + " = " + result);
         }
 
     }

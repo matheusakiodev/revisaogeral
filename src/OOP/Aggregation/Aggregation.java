@@ -11,8 +11,9 @@ public class Aggregation {
         Book book2 = new Book("The Two Towers", 352);
         Book book3 = new Book("The Return of the King", 416);
         Book book4 = new Book("The Little Paper Sandwich", 234);
+        Book book5 = new Book("O Livro de Feitiços para Novas Bruxas", 271);
 
-        Book[] books = {book1, book2, book3, book4};
+        Book[] books = {book1, book2, book3, book4, book5};
 
 //        for (Book book : books) {
 //            System.out.println(book.displayInfo());
